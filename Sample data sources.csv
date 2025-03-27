@@ -1,0 +1,19 @@
+﻿Loan,,,,,,,Loan_Customer_Relation,,,
+LoanID,LoanTypeID,LoanTypeText,LoanStatusId,Loan Skey,,,LoanSkey,CustomerSkey,CustomerRoleTypeId,CustomerRoleTypeText
+12345,100,Visa,701,60,,,60,500,P100,Applicant
+12346,200,StudentLoan,702,61,,,61,501,P200,Guarrantor
+12347,300,Mortgage,803,62,,,62,502,P300,Account Holder
+12348,100,Visa,702,63,,,63,503,P400,Benefeciary
+12349,100,Visa,702,64,,,64,504,P500,Appraiser
+12222,500,BusinessLoan,703,65,,,65,605,P600,Corporate Business Unit
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Customer,,,,,,,Loan_Sales_Relation,,,
+CustomerID,Customer Name,CustomerSkey,,,,,Loan Skey,FICO Score,,
+001,Lisa,500,,,,,60,300,,
+002,Rob,501,,,,,61,250,,
+003,Mani,502,,,,,62,800,,
+004,Susan,503,,,,,63,500,,
+005,John,504,,,,,64,,,
+006,Elon,505,,,,,65,900,,
